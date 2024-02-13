@@ -3,7 +3,7 @@ import React from "react";
 function Resume() {
   return (
     <div className="mainBox">
-      <h1>Resume</h1>
+      <img className="image" src="./Resume.png" />
     </div>
   );
 }

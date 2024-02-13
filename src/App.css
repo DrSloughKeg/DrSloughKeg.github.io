@@ -27,3 +27,30 @@ body {
 .navbar a:hover {
   color: lightblue;
 }
+
+.image {
+  width: 99%;
+  max-width: 99%;
+  display: block;
+  margin: auto;
+}
+
+.max600 {
+  max-width: 600px;
+}
+
+.textblock {
+  max-width: 600px;
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+
+.splitbox {
+  display: flex;
+  margin: 20px;
+  justify-content: space-evenly;
+}
+.rightbox {
+  align-self: center;
+}

@@ -20,7 +20,7 @@ function Projects() {
           </a>
         </div>
         <div>
-          <img className="image-max600" src="./HarmonyHub.png" />
+          <img className="image" src="./HarmonyHub.png" />
         </div>
       </div>
       <div className="splitbox">
@@ -42,7 +42,7 @@ function Projects() {
           </a>
         </div>
         <div>
-          <img className="image-max600" src="./JustSell.png" />
+          <img className="image" src="./JustSell.png" />
         </div>
       </div>
     </div>

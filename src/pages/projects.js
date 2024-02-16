@@ -18,6 +18,14 @@ function Projects() {
           <a href="https://harmony-hub-client-748a5025ff7d.herokuapp.com/">
             Check it out here!
           </a>
+          <br />
+          <a href="https://github.com/sophiephie/harmonyhub-client">
+            Or look at the <i>frontend</i> source code!
+          </a>
+          <br />
+          <a href="https://github.com/sophiephie/harmonyhub-server">
+            Or look at the <i>backend</i> source code!
+          </a>
         </div>
         <div>
           <img className="image" src="./HarmonyHub.png" />
@@ -39,6 +47,10 @@ function Projects() {
           <br />
           <a href="https://expressionism-chall.000webhostapp.com/">
             Check it out here!
+          </a>
+          <br />
+          <a href="https://github.com/Dripamine/RealEstateProperties-Project">
+            Or look at the source code!
           </a>
         </div>
         <div>

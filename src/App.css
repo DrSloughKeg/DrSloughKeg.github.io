@@ -8,16 +8,17 @@ body {
 span {
   color: red;
 }
+
 .mainBox {
   display: flex;
   align-items: center;
   flex-direction: column;
-}
-.mainBox a {
-  color: wheat;
-}
-.mainBox a:hover {
-  color: lightblue;
+  a {
+    color: wheat;
+    &:hover {
+      color: lightblue;
+    }
+  }
 }
 
 .navbar {
@@ -28,15 +29,44 @@ span {
   display: flex;
   justify-content: space-evenly;
   font-family: Arial, Helvetica, sans-serif;
+  a {
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+    text-decoration: none;
+    &:hover {
+      color: lightblue;
+    }
+  }
 }
-.navbar a {
-  color: white;
-  font-size: 20px;
-  margin: 20px;
-  text-decoration: none;
+
+.intro {
+  display: flex;
+  flex-direction: row;
+  img {
+    max-width: 30%;
+    align-self: center;
+    border-radius: 50px;
+  }
+  h1 {
+    width: 75%;
+    margin: auto;
+    text-align: left;
+  }
 }
-.navbar a:hover {
-  color: lightblue;
+
+.skillbtns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1500px;
+  .skill {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 10px;
+    border: 5px solid wheat;
+    border-radius: 20px;
+  }
 }
 
 .image {
@@ -58,13 +88,13 @@ span {
   margin: 20px;
   justify-content: space-evenly;
   border-bottom: 5px solid wheat;
-}
-.rightbox {
-  align-self: center;
+  .rightbox {
+    align-self: center;
+  }
 }
 
 .links {
-  margin: 10px;
+  margin-top: 50px;
   max-width: 600px;
   width: 100%;
   display: flex;

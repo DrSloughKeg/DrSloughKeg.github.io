@@ -35,14 +35,6 @@ function Contact() {
 
   return (
     <div className="mainBox">
-      <div className="links">
-        <div>
-          <a href="www.linkedin.com/in/benjamin-pye-756aa02b3">Linkedin</a>
-        </div>
-        <div>
-          <a href="www.github.com/DrSloughKeg">Github</a>
-        </div>
-      </div>
       <h1>Contact</h1>
       <p>
         Please feel free to contact me. You can send me an email here or at
@@ -89,6 +81,14 @@ function Contact() {
           />
           <input type="submit" value="Send" />
         </form>
+      </div>
+      <div className="links">
+        <div>
+          <a href="www.linkedin.com/in/benjamin-pye-756aa02b3">Linkedin</a>
+        </div>
+        <div>
+          <a href="www.github.com/DrSloughKeg">Github</a>
+        </div>
       </div>
     </div>
   );

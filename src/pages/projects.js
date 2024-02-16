@@ -36,7 +36,7 @@ function Projects() {
           <h1>JustSell - Find your Perfect Home</h1>
           <p className="textblock">
             This website was designed and created by a small team learning PHP
-            for the firs time. <br />
+            for the first time. <br />
             JustSell is a real estate website for potenitally buyers and
             real-estate agents. All user can browse listing an make offers on
             them. While Agent and Admin users have higher access prilledges like
@@ -55,6 +55,48 @@ function Projects() {
         </div>
         <div>
           <img className="image" src="./JustSell.png" />
+        </div>
+      </div>
+      <div className="splitbox">
+        <div className="rightbox">
+          <h1>Connect 4</h1>
+          <p className="textblock">
+            During our User Interfaces course, myself and some other students
+            created this simple game in PHP. <br />
+            You may be familiar with the concept. Two players take turns placing
+            tiles, while attempting to connect four of their own tiles
+            horizontially, vertically or diagonally. <br /> I started the first
+            player movement/selection logic, and then implimented the win
+            condision, aswell as helped with come of the CSS.
+          </p>
+          <br />
+          <a href="https://github.com/DrSloughKeg/Connect4">
+            Check out the source code here, and try for yourself!
+          </a>
+        </div>
+        <div>
+          <img className="image" src="./Connect4.png" />
+        </div>
+      </div>
+      <div className="splitbox">
+        <div className="rightbox">
+          <h1>Gobbo Killer - My first ever coding</h1>
+          <p className="textblock">
+            This was my first ever project in the coding world. <br />
+            Gobbo Killer was built on scratch.mit.edu, using pseudocode which
+            helped me learn my first coding principals, like loops and if
+            statments. <br />
+            The goal of the game is to kill as many gobbos as possible before
+            being overwhelmed. The player can move horizontially and point their
+            sword in four diffent directions.
+          </p>
+          <br />
+          <a href="https://github.com/DrSloughKeg/GobboKiller">
+            Take a look at the source code here!
+          </a>
+        </div>
+        <div>
+          <img className="image" src="./GobboKiller.png" />
         </div>
       </div>
     </div>

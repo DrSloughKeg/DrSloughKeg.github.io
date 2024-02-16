@@ -14,6 +14,14 @@ function Contact() {
 
   const sendEmail = (e) => {
     e.preventDefault();
+    if (
+      formValues.name == "" ||
+      formValues.message == "" ||
+      !formValues.email.toLowerCase().match(/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/)
+    ) {
+      setError(true);
+      return;
+    }
 
     emailjs
       .sendForm("service_rsk4mkp", "template_2ot3tq4", form.current, {
@@ -22,6 +30,7 @@ function Contact() {
       .then(
         () => {
           console.log("SUCCESS!");
+          setError(false);
           setSent(true);
           setFormValues({ name: "", email: "", message: "" });
         },
@@ -84,10 +93,12 @@ function Contact() {
       </div>
       <div className="links">
         <div>
-          <a href="www.linkedin.com/in/benjamin-pye-756aa02b3">Linkedin</a>
+          <a href="https://www.linkedin.com/in/benjamin-pye-756aa02b3">
+            Linkedin
+          </a>
         </div>
         <div>
-          <a href="www.github.com/DrSloughKeg">Github</a>
+          <a href="https://www.github.com/DrSloughKeg">Github</a>
         </div>
       </div>
     </div>

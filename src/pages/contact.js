@@ -93,9 +93,7 @@ function Contact() {
       </div>
       <div className="links">
         <div>
-          <a href="https://www.linkedin.com/in/benjamin-pye-756aa02b3">
-            Linkedin
-          </a>
+          <a href="https://www.linkedin.com/in/benjamin-pye">Linkedin</a>
         </div>
         <div>
           <a href="https://www.github.com/DrSloughKeg">Github</a>

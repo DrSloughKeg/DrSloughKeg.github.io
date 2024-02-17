@@ -5,10 +5,10 @@ function Home() {
     <div className="mainBox">
       <div className="intro">
         <img src="./Avatar.png" />
-        <div className="introtxt">
+        <div className="textblock">
           <h1>Hi there!</h1>
-          <h3 className="textblock">
-            My name is Benjamin Pye. I'm a Web Developer and Programmer living
+          <h3>
+            My name is Benjamin Pye. I'm a Web Developer and programmer living
             in Montreal. I'm trained in both front and back-end development. I
             love solving problems and fixing anything that needs fixing!
           </h3>

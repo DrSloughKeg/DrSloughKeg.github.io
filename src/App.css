@@ -24,7 +24,6 @@ span {
 .navbar {
   margin: 0px;
   padding: 20px;
-  border-radius: 30px;
   background-color: #333;
   display: flex;
   justify-content: space-evenly;
@@ -41,20 +40,20 @@ span {
 }
 
 .intro {
+  padding-top: 30px;
   display: flex;
   flex-direction: row;
+  text-align: left;
   img {
     max-width: 30%;
     align-self: center;
     border-radius: 50px;
   }
-  h1 {
-    width: 75%;
-    margin: auto;
-    text-align: left;
-  }
 }
 
+.skills {
+  padding-top: 30px;
+}
 .skillbtns {
   display: flex;
   flex-wrap: wrap;
@@ -64,7 +63,7 @@ span {
     padding-left: 15px;
     padding-right: 15px;
     margin: 10px;
-    border: 5px solid wheat;
+    border: 2px solid wheat;
     border-radius: 20px;
   }
 }
@@ -113,19 +112,22 @@ form {
   font-size: 16px;
 
   input {
+    color: wheat;
     width: 100%;
     height: 35px;
     padding: 7px;
+    background-color: #333;
     outline: none;
     border-radius: 5px;
-    border: 1px solid rgb(220, 220, 220);
+    border: 1px solid wheat;
 
     &:focus {
-      border: 2px solid rgba(0, 206, 158, 1);
+      border: 2px solid goldenrod;
     }
   }
 
   textarea {
+    color: wheat;
     max-width: 100%;
     min-width: 100%;
     width: 100%;
@@ -133,11 +135,12 @@ form {
     min-height: 100px;
     padding: 7px;
     outline: none;
+    background-color: #333;
     border-radius: 5px;
-    border: 1px solid rgb(220, 220, 220);
+    border: 1px solid wheat;
 
     &:focus {
-      border: 2px solid rgba(0, 206, 158, 1);
+      border: 2px solid goldenrod;
     }
   }
 
@@ -148,7 +151,7 @@ form {
   input[type="submit"] {
     margin-top: 2rem;
     cursor: pointer;
-    background: rgb(206, 168, 0);
+    background: goldenrod;
     color: black;
     border: none;
   }
@@ -159,6 +162,6 @@ form {
     flex-direction: column-reverse;
   }
   .App {
-    text-align: justify;
+    text-align: left;
   }
 }
